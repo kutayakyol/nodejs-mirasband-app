@@ -1,0 +1,74 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+input{
+	text-align: center;
+	background: none;
+	border: 1px solid #bbb;
+	color:#ddd;
+	border-radius: 10px;
+	width: 170px;
+}
+
+.border{
+	text-align: center;
+	height: 300px;
+}
+.row{
+	padding-top: 60px;
+}
+.row p{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 28pt;
+
+}
+#top-text{
+	text-align: center;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 18pt;
+}
+#backImg{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+}
+#time{
+	height: 300px;
+}
+#logo{
+	position: fixed;
+	right: 0;
+	bottom:0;
+	width: 160px;
+	height: 120px;
+	z-index: 5;
+}
+.big{
+	height: 300px;
+	margin-right: 10px;
+	padding: 20px;
+}
+span{
+	font-size: 18pt;
+}
+.number{
+	width: 100%;
+	height: 200px;
+	border-bottom: 1px solid #ddd;
+	text-align: center;
+	font-size: 72pt;
+	font-family: 'Oxygen', sans-serif;
+	padding-top: 50px;
+}
+.text{
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	font-size: 24pt;
+	font-family: 'Raleway', sans-serif;
+	color: #888;
+}

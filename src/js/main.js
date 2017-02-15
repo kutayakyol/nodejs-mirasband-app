@@ -1,0 +1,30 @@
+$(function(){
+	setInterval(function(){
+		var date = $("#main-date").val();
+		document.getElementById("numberYear").innerHTML ='';
+		document.getElementById("numberMonth").innerHTML ='';
+		document.getElementById("numberDay").innerHTML ='';
+		document.getElementById("numberHour").innerHTML ='';
+		document.getElementById("numberMinute").innerHTML ='';
+		document.getElementById("numberSecond").innerHTML ='';
+		var date1 = new Date(date);
+		var date2 = new Date();
+		var timeDiff = Math.abs(date1.getTime() - date2.getTime());
+		var diffSecs = Math.ceil(timeDiff / (1000))%60; 
+		var diffMins = Math.ceil(timeDiff / (1000 * 60))%60; 
+		var diffHours = Math.ceil(timeDiff / (1000 * 60 * 60))%24; 
+		var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24))%30; 
+		var diffMonts = Math.ceil(timeDiff / (1000 * 3600 * 24 * 30))%12; 
+		var diffYears = Math.ceil(timeDiff / (1000 * 3600 * 24 * 30 * 12))-1; 
+		//alert(diffDays);
+		//document.write(diffYears + " Yıl " + diffMonts + " Ay " +diffDays + " Gün " +diffHours + " Saat " +diffMins + " Dakika " +  diffSecs + " Saniye");
+		//document.getElementById("main-date").val() = date;
+		//$("#main-date").val(date);
+		document.getElementById("numberYear").innerHTML = diffYears;
+		document.getElementById("numberMonth").innerHTML = diffMonts;
+		document.getElementById("numberDay").innerHTML = diffDays;
+		document.getElementById("numberHour").innerHTML = diffHours;
+		document.getElementById("numberMinute").innerHTML = diffMins;
+		document.getElementById("numberSecond").innerHTML = diffSecs;
+	},1000);
+});
