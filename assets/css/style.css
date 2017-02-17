@@ -34,7 +34,7 @@ Tags: HTML, Template, Coming Soon, Kite
 *    9.3 - media screen and (max-width: 1170px) 
 *  11 - Preloader
 *  10 - Color Style Switcher
-*
+*  12 - popup image opener
 ---------------------------------------------------------------------- */
 
 
@@ -284,7 +284,7 @@ a:focus{
 	background:#55ACEE;
 	color: #fff;
 }
-.social-btn-box .linkedin-btn:hover{
+.social-btn-box .user-circle-btn:hover{
 	background:#0077b5;
 	color: #fff;
 }
@@ -294,10 +294,6 @@ a:focus{
 }
 .social-btn-box .youtube-btn:hover{
 	background:#cc181e;
-	color: #fff;
-}
-.social-btn-box .github-btn:hover{
-	background:#2b2e30;
 	color: #fff;
 }
 .social-btn-box .instagram-btn:hover{
@@ -651,7 +647,7 @@ a:focus{
 	position: absolute;
 
 }
-.team-member .social-btn-container .facebook-btn-container{
+.team-member .social-btn-container .user-circle-btn-container{
 	bottom: 220px;
 	right: 230px;
 }
@@ -659,19 +655,15 @@ a:focus{
 	bottom: 220px;
 	left: 230px;
 }
-.team-member .social-btn-container .linkedin-btn-container{
+.team-member .social-btn-container .facebook-btn-container{
 	top: 220px;
 	right: 230px;
-}
-.team-member .social-btn-container .github-btn-container{
-	top: 220px;
-	left: 230px;
 }
 .team-member .social-btn-container .instagram-btn-container{
 	top: 220px;
 	left: 230px;
 }
-.team-member:hover .social-btn-container .facebook-btn-container{
+.team-member:hover .social-btn-container .user-circle-btn-container{
 	bottom: 177px;
 	right: 89px;
 }
@@ -679,13 +671,9 @@ a:focus{
 	bottom: 177px;
 	left: 89px;
 }
-.team-member:hover .social-btn-container .linkedin-btn-container{
+.team-member:hover .social-btn-container .facebook-btn-container{
 	top: 177px;
 	right: 89px;
-}
-.team-member:hover .social-btn-container .github-btn-container{
-	top: 177px;
-	left: 89px;
 }
 .team-member:hover .social-btn-container .instagram-btn-container{
 	top: 177px;
@@ -1339,8 +1327,5 @@ ul.colors li a.color1.active:after {
 
 /* 11 - Color Style Switcher  End
 ---------------------------------------------------------------------- */
-
-
-
 
 
