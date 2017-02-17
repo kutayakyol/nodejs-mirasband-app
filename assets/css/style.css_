@@ -32,8 +32,7 @@ Tags: HTML, Template, Coming Soon, Kite
 *    9.1 - media screen and (max-width: 992px)
 *    9.2 - media screen and (max-width: 768px)
 *    9.3 - media screen and (max-width: 1170px) 
-*  11 - Preloader
-*  10 - Color Style Switcher
+*  10 - Preloader
 *
 ---------------------------------------------------------------------- */
 
@@ -296,14 +295,11 @@ a:focus{
 	background:#cc181e;
 	color: #fff;
 }
-.social-btn-box .github-btn:hover{
-	background:#2b2e30;
-	color: #fff;
-}
 .social-btn-box .instagram-btn:hover{
 	background:#f09433;
 	color: #fff;
 }
+
 .social-btn-box .a:hover{
 	background:#3498db;
 	color: #fff;
@@ -544,7 +540,7 @@ a:focus{
 	display:inline-block;
 	font-weight:300;
 	padding-top: 15%;
-	
+		
 	-webkit-transition:all .25s;
 	   -moz-transition:all .25s;
 	    -ms-transition:all .25s;
@@ -663,34 +659,28 @@ a:focus{
 	top: 220px;
 	right: 230px;
 }
-.team-member .social-btn-container .github-btn-container{
-	top: 220px;
-	left: 230px;
-}
 .team-member .social-btn-container .instagram-btn-container{
 	top: 220px;
 	left: 230px;
 }
+
 .team-member:hover .social-btn-container .facebook-btn-container{
-	bottom: 177px;
+	top: 125px;
 	right: 89px;
 }
 .team-member:hover .social-btn-container .twitter-btn-container{
-	bottom: 177px;
+	top: 125px;
 	left: 89px;
 }
 .team-member:hover .social-btn-container .linkedin-btn-container{
-	top: 177px;
-	right: 89px;
-}
-.team-member:hover .social-btn-container .github-btn-container{
-	top: 177px;
-	left: 89px;
+	bottom: 155px;
+	right: 88px;
 }
 .team-member:hover .social-btn-container .instagram-btn-container{
-	top: 177px;
-	left: 89px;
+	bottom: 155px;
+	right: 88px;
 }
+
 .team-container .social-buttons a{
 	color:#fff;
 	width:24px;
@@ -986,6 +976,7 @@ form.news-letter .btn:hover{
 
 
 
+
 /* 10 - Preloader
 ---------------------------------------------------------------------- */
 #preloader{
@@ -1197,150 +1188,4 @@ background: #00aaff;
 
 /* 10 - Preloader End
 ---------------------------------------------------------------------- */
-
-
-
-/* 11 - Color Style Switcher 
----------------------------------------------------------------------- */
-
-#color-style-switcher div h3 {
-    color: #ffffff;
-    font-size: 19px;
-    margin: 8px 3px 12px;
-}
-#color-style-switcher {
-    background: none repeat scroll 0 0 rgba(0,0,0,.7);
-    box-shadow: 2px 2px 0 0 rgba(0, 0, 0, 0.08);
-    left: -189px;
-    position: fixed;
-    top: 250px;
-    width: 195px;
-    z-index: 9999;
-}
-#color-style-switcher div {
-    padding: 5px 10px;
-}
-#color-style-switcher .bottom {
-    background: none repeat scroll 0 0 rgba(0,0,0,.7);
-    color: #252525;
-    padding: 0;
-}
-#color-style-switcher .bottom a.settings {
-    background: none repeat scroll 0 0 rgba(0,0,0,.7);
-    box-shadow: 2px 2px 0 0 rgba(0, 0, 0, 0.08);
-    display: block;
-    height: 41px;
-    position: absolute;
-    right: -40px;
-    top: 0;
-    width: 40px;
-    padding: 3px;
-}
-#color-style-switcher .bottom a.settings i {
-    margin-left: 1px;
-    margin-top: 3px;
-    color: #ffffff;
-}
-#color-style-switcher select {
-    background: none repeat scroll 0 0 #F6F6F6;
-    border: 1px solid #FFFFFF;
-    line-height: 1;
-    margin-bottom: 10px;
-    padding: 5px 10px;
-    width: 150px;
-}
-.options_box {
-    margin: 0;
-    overflow: hidden;
-    padding: 0;
-}
-.sw-page{
- 	background:#222;
-    color: #FFFFFF;
-    display: block;
-    margin: 5px 0;
-    padding: 10px;
-}
-.sw-page:hover{
- 	background:#000000;
-}
-.variant{
-	background:#000;
-}
-ul.colors {
-    list-style: none outside none;
-    margin: 0 0 10px;
-    overflow: hidden;
-	padding:0;
-}
-ul.colors li {
-    float: left;
-    margin: 2px;
-}
-ul.colors li a {
-    cursor: pointer;
-    display: block;
-    height: 35px;
-    width: 35px;
-	border-radius:4px;
-	-webkit-border-radius:4px;
-}
-
-ul.colors .color1 {
-    background: none repeat scroll 0 0 #ffffff ;
-}
-ul.colors .color2 {
-    background: none repeat scroll 0 0 #f39c12;
-}
-ul.colors .color3 {
-     background: none repeat scroll 0 0 #e74c3c;
-}
-ul.colors .color4 {
-     background: none repeat scroll 0 0 #2ecc71;
-}
-ul.colors .color5 {
-     background: none repeat scroll 0 0 #16a085;
-}
-ul.colors .color6 {
-     background: none repeat scroll 0 0 #3498db;
-}
-ul.colors .color7 {
-     background: none repeat scroll 0 0 #1abc9c;
-}
-ul.colors .color8 {
-     background: none repeat scroll 0 0 #f1c40f;
-}
-ul.colors li a.active {
-    
-    position: relative;
-}
-ul.colors li a.active:after {
-	color: #fff;
-    content:"\f00c";
-    font-family: "FontAwesome";
-    font-size: 10px;
-    right: 12px;
-    position: absolute;
-    top: 9px;
-}
-ul.colors li a.color1.active:after {
-	color:#000000;
-}
-.icon-2x{
-	font-size:28px;
-	line-height:30px;
-}
-@media only screen and (max-width: 479px) {
-	#color-style-switcher {
-	    display: none;
-	}
-}
-
-
-/* 11 - Color Style Switcher  End
----------------------------------------------------------------------- */
-
-
-
-
 
