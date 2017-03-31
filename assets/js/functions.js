@@ -59,7 +59,7 @@ jQuery(document).ready(function($) {
         
          targetDate: {
              'day': 15,
-             'month': 3,
+             'month': 4,
              'year': 2017,
              'hour': 0,
              'min': 0,
